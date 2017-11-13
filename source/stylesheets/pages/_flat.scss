@@ -1,0 +1,30 @@
+.flat-picture {
+  height: 40vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: $gray;
+  text-align: center;
+}
+
+.infos {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.light-wrapper {
+  background-color: $light-gray;
+  padding: 5%;
+}
+
+.sub-infos {
+  border-radius: 2px;
+  background-color: white;
+  padding: 30px;
+  margin: 20px;
+}
+
+.wifi-false {
+  text-decoration: line-through;
+}

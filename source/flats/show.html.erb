@@ -1,0 +1,29 @@
+<!-- Access data.flats with owner's name as key -->
+<% flat = data.flats[owner] %>
+
+<!-- Inject flat data in template -->
+<div class="flat-picture" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%), url(<%= flat.picture %>);">
+</div>
+
+<div class="light-wrapper">
+  <div class="infos">
+    <div class="container-fluid">
+      <div class="row"></div>
+        <div class="col-xs-12 col-sm-6">
+          <div class="sub-infos">
+            <p><%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class: "avatar-big img-circle" %></p>
+            <p><%= flat.owner %></p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <div class="sub-infos">
+            <h1><%= flat.description %></h1>
+            <p>Rating : <%= flat.rating %> stars</p>
+            <p class="wifi-<%= flat.wifi %>">Wifi</p>
+            <p><%= flat.city_name %></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
