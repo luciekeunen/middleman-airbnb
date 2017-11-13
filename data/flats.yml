@@ -1,5 +1,5 @@
 guillaumeschwaederle:
-  owner: Guillaume
+  owner: "Guillaume"
   name: "Guillaume's home"
   description: "Charming room in Bischoffsheim"
   city_name: "Strasbourg, France"
@@ -8,29 +8,29 @@ guillaumeschwaederle:
   rating: 5
   picture: "https://cdn.getyourguide.com/niwziy2l9cvz/6hbgW2YmIMqEeKOQ84GE4/bbabeb8ded0515b3517b2d90f546c3fc/5.jpg"
 luciekeunen:
-  owner: Lucie
+  owner: "Lucie"
   name: "Lucie's home"
-  description: Small house in Boncelles
+  description: "Small house in Boncelles"
   city_name: "Liege, Belgium"
   city_slug: "liege"
   wifi: false
   rating: 5
   picture: "http://www.vivons-maison.com/sites/default/files/styles/740px/public/field/image/maison-d-architecte-vue-generale.jpg?itok=MZXZZ1Ty"
 bacleclement:
-  owner: Clément
+  owner: "Clément"
   name: "Clement's home"
-  description: Cute flat in Lille
+  description: "Cute flat in Lille"
   city_name: "Lille, France"
   city_slug: "lille"
   wifi: true
   rating: 4
   picture: "http://www.lille-appart-hotel.fr/wp-content/uploads/2017/03/vente-f4-lille-100-2681.png"
 vesass:
-  owner: Maxime
+  owner: "Maxime"
   name: "Maxime's home"
-  description: Huge castle in Mons
+  description: "Huge castle in Mons"
   city_name: "Mons, Belgium"
   city_slug: "mons"
   wifi: false
   rating: 3
-  picture: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Chateau_de_Landreville_-_Mai_2007_-_facade_sud-ouest_-_piccola.jpg/1200px-Chateau_de_Landreville_-_Mai_2007_-_facade_sud-ouest_-_piccola.jpg
+  picture: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Chateau_de_Landreville_-_Mai_2007_-_facade_sud-ouest_-_piccola.jpg/1200px-Chateau_de_Landreville_-_Mai_2007_-_facade_sud-ouest_-_piccola.jpg"
